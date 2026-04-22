@@ -1,16 +1,16 @@
-# danhba
+Flutter Contact Manager - QR Scanner & Call Intent
+Ứng dụng quản lý danh bạ đa nền tảng được xây dựng bằng Flutter. Tích hợp quét mã QR để thêm liên hệ siêu tốc và sử dụng System Intent để thực hiện cuộc gọi.
 
-A new Flutter project.
+Tính năng chính
+Quản lý danh bạ: Hiển thị danh sách liên hệ với giao diện Material Design/Cupertino.
 
-## Getting Started
+Quét mã QR: Sử dụng camera để quét thông tin từ mã QR và tự động parse dữ liệu vào ứng dụng.
 
-This project is a starting point for a Flutter application.
+Call Intent (url_launcher): Sử dụng scheme tel: để chuyển hướng người dùng sang ứng dụng gọi điện mặc định của hệ thống (Android/iOS).
 
-A few resources to get you started if this is your first Flutter project:
+Công nghệ & Thư viện sử dụng
+Framework: Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+QR Scanner: mobile_scanner hoặc qr_code_scanner.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Call Intent: url_launcher - Thư viện tiêu chuẩn để mở URL và thực hiện cuộc gọi.
